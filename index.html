@@ -101,7 +101,7 @@
          */
         async function fetchTrackingData(trackingNumber) {
             // CRITICAL: Ensure this matches the host and port of your running api_server.py
-            const backendApiUrl = 'http://127.0.0.1:5000/track'; 
+            const backendApiUrl = 'http://74.208.146.50:5000/opt/_track'; 
 
             const response = await fetch(backendApiUrl, {
                 method: 'POST',
@@ -241,3 +241,4 @@
     </script>
 </body>
 </html>
+
