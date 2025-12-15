@@ -94,7 +94,8 @@
 
         // --- Configuration ---
         const PUBLIC_IP = '74.208.146.50'; // Your VPS Public IP
-        const BACKEND_ENDPOINT = `https://${PUBLIC_IP}/track`; // Correct Nginx URL
+        const public_domain = 'api.godata.digital'
+        const BACKEND_ENDPOINT = `https://${public_domain}/track`; // Correct Nginx URL
 
         /**
          * Calls the local Python Flask API to get tracking data.
@@ -261,4 +262,5 @@
     </script>
 </body>
 </html>
+
 
